@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+
+
+spring:
+  r2dbc:
+    url: r2dbc:postgres://zsuewrpi:hSRmpn32ruCbjKSGkOXCNuhb4CmiviJl@berry.db.elephantsql.com/zsuewrpi
+    username: zsuewrpi
+    password: hSRmpn32ruCbjKSGkOXCNuhb4CmiviJl
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
